@@ -19,6 +19,20 @@ import (
 	"github.com/jaybxyz/simd-tx/wallet"
 )
 
+/*
+TODO
+1. Remove config.toml as this project is just sample code and it increases line of code to write
+2. Do we need rpcURL anymore? Can we use grpc to query network info?
+3. Research Cosmos SDK's written interfaces to see if this code can be shortend in any way or create a simple library to make the process simpler
+
+*/
+
+const (
+
+// rpcURL = "localhost:26657"
+// grpcURL        = "localhost:9090"
+)
+
 var (
 	timeout = 5 * time.Second
 )
